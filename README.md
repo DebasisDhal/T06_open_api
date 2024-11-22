@@ -1,27 +1,12 @@
-# Products
+Requirements
+Create a simple angular application that displays a list of items. The items should be loaded from an API (any public API) and the user should be able to sort and filter the items.
+Note: For the design framework, you can use the latest version of either Bootstrap + ng-bootstrap (or) Angular Material. Basic styling of the page is expected but there is no need to get too creative.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+open_api = "https://dummyjson.com/products"
 
-## Development server
+![image](https://github.com/user-attachments/assets/520f75de-8501-49ce-8e01-4d2c79b51f5e)
+![image](https://github.com/user-attachments/assets/9964ab49-eafc-49a6-9381-ca3ea5a97028)
+![image](https://github.com/user-attachments/assets/3f14c5c9-f4b4-47cb-95bd-c6bf06c2d160)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
