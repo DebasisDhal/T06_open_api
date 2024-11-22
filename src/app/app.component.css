@@ -1,0 +1,104 @@
+/* Container style for spacing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Custom table styles */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  /* Add alternating row colors */
+  .table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Cell styling */
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  /* Small description text */
+  .description-cell {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Adjust width as needed */
+  }
+  
+  /* Make the title column stand out */
+  .table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Add hover effect on rows */
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the search bar */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .search-bar .form-group {
+    max-width: 250px;
+    width: 100%;
+  }
+  
+  /* Style the sort dropdowns */
+  .sort-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sort-controls .form-group {
+    width: 45%;
+  }
+  
+  .sort-controls select {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sort-controls .form-group label {
+    font-weight: bold;
+  }
+  
+  /* Add some basic styling for buttons and form controls */
+  input[type="text"], select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
